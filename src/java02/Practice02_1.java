@@ -13,7 +13,10 @@ public class Practice02_1 {
 
         for (int i = 0; i < arr.length; i++) {
             arr[i] = scanner.nextInt();
-            sum += arr[i];
+        }
+
+        for (int data : arr) {
+            sum += data;
         }
 
         System.out.print("모든 요소의 합: " + sum);
