@@ -7,12 +7,12 @@ public class Practice02_2 {
         int min = arr[0];
         int max = arr[0];
 
-        for (int i = 0; i < arr.length - 1; i++) {
-            if (arr[i+1] < min) {
-                min = arr[i+1];
+        for (int data : arr) {
+            if (data < min) {
+                min = data;
             }
-            if (arr[i+1] > max) {
-                max = arr[i+1];
+            if (data > max) {
+                max = data;
             }
         }
 
